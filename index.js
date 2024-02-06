@@ -31,7 +31,7 @@ boton.addEventListener("mouseover", function(){
     }
 });
 boton.addEventListener("mouseout", function(){
-    boton.innerHTML = "$99.99";
+    boton.innerHTML = "$20.99";
     boton.style.color = "black";
 });
 botones2.addEventListener("mouseover", function(){
@@ -42,7 +42,7 @@ botones2.addEventListener("mouseover", function(){
     }
 });
 botones2.addEventListener("mouseout", function(){
-    botones2.innerHTML = "$99.99";
+    botones2.innerHTML = "$10.99";
     botones2.style.cursor = "pointer";
     botones2.style.color = "black";
 });
@@ -56,7 +56,7 @@ botones3.addEventListener("mouseover", function(){
     }
 });
 botones3.addEventListener("mouseout", function(){
-    botones3.innerHTML = "$99.99";
+    botones3.innerHTML = "$20.99";
     botones3.style.cursor = "pointer";
     botones3.style.color = "black";
 });
@@ -69,7 +69,7 @@ botones4.addEventListener("mouseover", function(){
     }
 });
 botones4.addEventListener("mouseout", function(){
-    botones4.innerHTML = "$99.99";
+    botones4.innerHTML = "$10.99";
     botones4.style.cursor = "pointer";
     botones4.style.color = "black";
 });
@@ -82,7 +82,7 @@ botones5.addEventListener("mouseover", function(){
     }
 });
 botones5.addEventListener("mouseout", function(){
-    botones5.innerHTML = "$99.99";
+    botones5.innerHTML = "$20.99";
     botones5.style.cursor = "pointer";
     botones5.style.color = "black";
 });
@@ -95,7 +95,7 @@ botones6.addEventListener("mouseover", function(){
     }
 });
 botones6.addEventListener("mouseout", function(){
-    botones6.innerHTML = "$99.99";
+    botones6.innerHTML = "$10.99";
     botones6.style.cursor = "pointer";
     botones6.style.color = "black";
 });
