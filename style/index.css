@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'MaisonNeue',sans-serif;
-    text-decoration: none !important;
+    font-family: 'Open Sans', sans-serif;;
 }
 
 #imagen {
@@ -41,6 +41,11 @@
 }
 
 /* MENU y MENU DESPLEGABLE */
+#sign-in{
+    pointer-events: none !important;
+    color: rgb(208, 206, 206);
+}
+
 nav{
     margin: 30px;
 }
@@ -93,6 +98,9 @@ nav ul {
     color: #333;
     text-decoration: none;
   }
+  nav * a{
+    text-decoration: none;
+}
   
   nav ul li ul li a:hover {
     background-color: #f2f2f2;
@@ -118,9 +126,20 @@ nav ul {
     object-fit: cover;
     border-radius: 8px;
   }
+  .card div{
+    display: grid; 
+    grid-template: 1fr/ 7fr 1fr;
+}
+
+.card * .material-symbols-outlined{
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
   
-  .card h3 {
+  .card * h3 {
     margin-top: 10px;
+    margin-left: 45px;
   }
   
   .card p {
@@ -152,7 +171,7 @@ nav ul {
    grid-template: repeat(1, auto) / repeat(3, auto);
    gap: 20px 10px;
 }
-.card > h3{
+.card * h3{
     color: #7777;
 }
 
@@ -174,6 +193,10 @@ footer div ul li:nth-child(n){
     text-shadow: 3px 3px 5px black;
 }
 
+footer li{
+    list-style: none;
+
+}
 
 /*
 * ONLY CSS MEDIA QUERYS
